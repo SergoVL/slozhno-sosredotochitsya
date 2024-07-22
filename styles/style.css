@@ -274,38 +274,33 @@
   outline: 1px solid var(--main-text-color);
 }
 
-.section__why,
-.section__how {
+.section__content-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.section__why .section__title,
-.section__how .section__title {
+.section__content-section .section__title {
   flex: 0 0 auto;
   width: 33%;
 }
 
 @media (width < 1024px) and (width >=768px) {
 
-  .section__why .section__title,
-  .section__how .section__title {
+  .section__content-section .section__title {
     width: 32%;
   }
 }
 
 @media (width < 768px) and (width >=375px) {
 
-  .section__why .section__title,
-  .section__how .section__title {
+  .section__content-section .section__title {
     width: 100%;
     margin-bottom: 20px;
   }
 }
 
-.section__why .section__article-list,
-.section__how .section__article-list {
+.section__content-section .section__article-list {
   flex: 0 0 auto;
   width: 66%;
   flex-direction: column;
@@ -314,16 +309,14 @@
 
 @media (width < 1024px) and (width >=768px) {
 
-  .section__why .section__article-list,
-  .section__how .section__article-list {
+  .section__content-section .section__article-list {
     width: 65%;
   }
 }
 
 @media (width < 768px) and (width >=375px) {
 
-  .section__why .section__article-list,
-  .section__how .section__article-list {
+  .section__content-section .section__article-list {
     width: 100%;
   }
 }
